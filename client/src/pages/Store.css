@@ -1,0 +1,281 @@
+.prods {
+    width: 100%; 
+    display: grid;
+    justify-content: center;
+    grid-gap: 2em;
+    grid-template-columns: repeat(3,1fr); /* Adjusted grid layout */
+    padding-left: 20px;
+  }
+  
+  
+  .prod-card {
+    width: 100%; /* Ensuring cards take full width of their container */
+    max-width: 100%; /* Allowing cards to shrink if needed */
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  
+  
+  
+  
+  
+  /* card.css */
+  
+  
+  /* Define styles for the product card */
+  .prod-card {
+      width: 300px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+  }
+  
+  
+  /* Style the image inside the product card */
+  .prod-card img {
+      width: 100%;
+      height: auto;
+      transition: transform 0.3s ease;
+  }
+  
+  
+  /* Define styles for the content inside the product card */
+  .card-content {
+      padding: 20px;
+  }
+  
+
+  /* Define hover effect for the product card */
+  .prod-card:hover img{
+      transform: scale(1.05); /* Scale up the card slightly on hover */
+  }
+  
+  
+  /* Define hover effect for the image inside the product card */
+  .prod-card:hover img {
+      transform: scale(1.1); /* Scale up the image slightly on hover */
+  }
+  
+  
+  
+  
+  
+  
+  .product-link {
+      text-decoration: none; /* Remove underline */
+      color: black; /* Inherit the text color */
+    }
+   
+  
+  
+    @media screen and (min-width: 2121px) {
+      .prods{
+          width: 100%;
+          display: grid;
+          justify-content: center;
+          grid-gap: 2em;
+          grid-template-columns: repeat(5,1fr);
+      }
+    }
+  
+  
+   
+    @media screen and (max-width: 2120px) {
+      .prods{
+          width: 100%;
+          display: grid;
+          justify-content: center;
+          grid-gap: 2em;
+          grid-template-columns: repeat(4,1fr);
+      }
+    }
+   
+  
+  
+    @media screen and (max-width: 1319px) {
+      .prods{
+          width: 100%;
+          display: grid;
+          justify-content: center;
+          grid-gap: 2em;
+          grid-template-columns: repeat(3,1fr);
+      }
+    }
+  
+  
+   
+    @media screen and (max-width: 1166px) {
+      .prods{
+          width: 100%;
+          display: grid;
+          justify-content: center;
+          grid-gap: 2em;
+          grid-template-columns: repeat(2,1fr);
+      }
+  
+  
+      .prod-card{
+          width: 400px;
+      }
+    }
+  
+
+
+    
+    @media screen and (max-width: 960px) {
+        .prods{
+            width: 100%;
+            display: grid;
+            justify-content: center;
+            grid-gap: 2em;
+            grid-template-columns: repeat(2,1fr);
+            padding-left: 70px;
+        }
+    
+    
+        .prod-card{
+            width: 350px;
+        }
+      }
+    
+
+      @media screen and (max-width: 850px) {
+        .prods{
+            width: 100%;
+            display: grid;
+            justify-content: center;
+            grid-gap: 2em;
+            grid-template-columns: repeat(1,1fr);
+            padding-left: 150px;
+        }
+    
+    
+        .prod-card{
+            width: 550px;
+        }
+      }
+    
+
+      @media screen and (max-width: 736px) {   
+        .prod-card{
+            width: 500px;
+        }
+      }
+
+      @media screen and (max-width: 669px) {   
+        .prods{
+            padding-left: 100px;
+        }
+        .prod-card{
+            width: 480px;
+        }
+      }
+
+      @media screen and (max-width: 669px) {   
+        .prods{
+            padding-left: 90px;
+        }
+
+        .prod-card{
+            width: 400px;
+        }
+      }
+
+
+      @media screen and (max-width: 506px) {   
+        .prods{
+            padding-left: 70px;
+        }
+
+        .prod-card{
+            width: 370px;
+        }
+      }
+    
+    
+  
+   
+      @media screen and (max-width: 448px) {
+        .prods{
+            padding-left: 15px;
+        }
+    
+        .prod-card{
+            width: 250px;
+        }
+      }
+    
+  
+  
+  
+  
+
+      .App {
+        text-align: center;
+        margin-top: 20px;
+      }
+      
+      button {
+        margin: 5px;
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .grid-container{
+        display: grid;
+      }
+      
+      .grid-item {
+        background-color: #ffffff;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        padding: auto;
+      }
+      
+      .list-container {
+        margin-top: 20px;
+      }
+      
+      .list-item {
+        background-color: #f0f0f0;
+        padding: 20px;
+        margin-bottom: 10px;
+      }
+      
+      .prod-card-list {
+        width: 100%; /* Ensuring cards take full width of their container */
+        max-width: 100%; /* Allowing cards to shrink if needed */
+        overflow: hidden;
+        transition: transform 0.3s ease;
+        width: 300px;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+      }
+    
+    
+    .prod-card-list img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease;
+    }
+    
+    
+    /* Define styles for the content inside the product card */
+    .card-content {
+        padding: 20px;
+    }
+    
+  
+    /* Define hover effect for the product card */
+    .prod-card-list:hover img{
+        transform: scale(1.05); /* Scale up the card slightly on hover */
+    }
+    
+    
+    /* Define hover effect for the image inside the product card */
+    .prod-card-list:hover img {
+        transform: scale(1.1); /* Scale up the image slightly on hover */
+    }
+    
