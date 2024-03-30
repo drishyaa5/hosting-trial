@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cfe73f15.css",
+    "main.js": "/static/js/main.59e9b370.js",
+    "static/js/453.419a5d54.chunk.js": "/static/js/453.419a5d54.chunk.js",
+    "static/media/pp.mp4": "/static/media/pp.7045fee1be53513b848a.mp4",
+    "static/media/bbb.jpg": "/static/media/bbb.da2ab5c68ca9f80d799d.jpg",
+    "static/media/last.png": "/static/media/last.8bd3eb47649f2572fb6c.png",
+    "static/media/bagg.png": "/static/media/bagg.d12d721c7953814e6a7f.png",
+    "static/media/newpro.png": "/static/media/newpro.60d8046622bc63865ec7.png",
+    "static/media/bello_logo.webp": "/static/media/bello_logo.aa0b2a726290c16aca71.webp",
+    "static/media/mmm.jpg": "/static/media/mmm.a11dbfd993548e5995b7.jpg",
+    "static/media/ww.jpg": "/static/media/ww.513c3e5d67192fb9963b.jpg",
+    "static/media/apparel.png": "/static/media/apparel.33b3e5473bbd4e6013a5.png",
+    "static/media/tech.png": "/static/media/tech.7f57e42f1f539c7b1d4c.png",
+    "static/media/sling.png": "/static/media/sling.a353345c60c69e8cc61d.png",
+    "static/media/bag.png": "/static/media/bag.99d273538fa90c887044.png",
+    "static/media/ig.png": "/static/media/ig.ead1470f682fdd553f8a.png",
+    "static/media/y.png": "/static/media/y.b5e7cd531f2ef23b9b95.png",
+    "static/media/owlcard.jpg": "/static/media/owlcard.fa4e0d6d3a68872d3bba.jpg",
+    "index.html": "/index.html",
+    "main.cfe73f15.css.map": "/static/css/main.cfe73f15.css.map",
+    "main.59e9b370.js.map": "/static/js/main.59e9b370.js.map",
+    "453.419a5d54.chunk.js.map": "/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cfe73f15.css",
+    "static/js/main.59e9b370.js"
+  ]
+}
